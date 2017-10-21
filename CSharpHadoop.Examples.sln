@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MapReduce", "MapReduce", "{3B7DD915-3C9D-4961-8E15-E7701B435406}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{039AC795-DDB8-4DDD-BA84-6332C0F2149F}"
+	ProjectSection(SolutionItems) = preProject
+		README.MD = README.MD
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenOrOddCount", "EvenOrOddCount\EvenOrOddCount.csproj", "{77BC101D-1679-48B3-B2D0-CE832D2CDCB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77BC101D-1679-48B3-B2D0-CE832D2CDCB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77BC101D-1679-48B3-B2D0-CE832D2CDCB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77BC101D-1679-48B3-B2D0-CE832D2CDCB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77BC101D-1679-48B3-B2D0-CE832D2CDCB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77BC101D-1679-48B3-B2D0-CE832D2CDCB7} = {3B7DD915-3C9D-4961-8E15-E7701B435406}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89528F1F-1D00-4AF8-B575-065800B1AD11}
+	EndGlobalSection
+EndGlobal
