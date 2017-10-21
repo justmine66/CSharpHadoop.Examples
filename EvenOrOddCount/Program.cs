@@ -36,7 +36,6 @@ namespace EvenOrOddCount
             exitStatus = exitCode + " (" + exitStatus + ")";
             Console.WriteLine();     
             Console.Write("Exit Code = " + exitStatus);
-
             Console.Read();
         }
     }
